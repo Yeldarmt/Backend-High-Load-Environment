@@ -3,7 +3,7 @@ package Recursion_tasks
 sealed trait IntList {
   def length(l: Int = 0): Int = this match {
     case End => l
-    case Node(_, tail) => tail.length(l + 1)
+    case Node(head, tail) => tail.length(l + 1)
   }
   def product(p: Int = 1): Int = this match {
     case End => p

@@ -1,0 +1,1 @@
+[error] sbt.librarymanagement.ResolveException: unresolved dependency: com.typesafe.akka#akka-actor_2.12;2.5.21: public: unable to get resource for com/typesafe/akka#akka-actor_2.12;2.5.21: res=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21.pom: java.net.UnknownHostException: repo1.maven.org

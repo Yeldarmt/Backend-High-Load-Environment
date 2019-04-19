@@ -8,7 +8,6 @@ class Square(a:Int) extends Shape {
   override def Perimetre(): Double = {
     4*a
   }
-
   override def Sides(): Int = {
     4
   }
