@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc2bf94-bc1a-42c8-9f6f-89c1dbe591d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab44/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/.idea/modules/lab44-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/src/main/scala/akka_tutorial/Architectures.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/src/main/scala/akka_tutorial/Device_actor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/src/main/scala/akka_tutorial/First_actor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/src/main/scala/akka_tutorial/PrintMyActorRefActor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/src/main/scala/l4/Tasks.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab44/src/main/scala/opt/Option.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/src/Recursion_tasks/IntList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/Recursion_tasks/IntList.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/src/ShapingUp/Task1/Square.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/src/ShapingUp/Task1/Square.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Boot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Boot.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Football.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Football.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/JsonSupport.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/JsonSupport.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Tables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Tables.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/models/Player.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/models/Player.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/models/Team.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/models/Team.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Supplier$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Supplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Suppliers.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,6 +38,7 @@
     <session id="-1353144688">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -54,7 +49,7 @@
           <entry key="java" value="1" />
           <entry key="properties" value="1" />
           <entry key="sbt" value="1" />
-          <entry key="scala" value="16" />
+          <entry key="scala" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -62,57 +57,26 @@
           <entry key="HOCON" value="1" />
           <entry key="JAVA" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="Scala" value="16" />
+          <entry key="Scala" value="22" />
           <entry key="sbt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="sbt" value="8" />
-          <entry key="scala" value="1355" />
+          <entry key="scala" value="2391" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="1355" />
+          <entry key="Scala" value="2391" />
           <entry key="sbt" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Boot.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Football.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/models/Teams.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -123,18 +87,18 @@
         <option value="$PROJECT_DIR$/src/main/scala/Supplier.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/resources/application.conf" />
-        <option value="$PROJECT_DIR$/src/main/scala/Tables.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/models/Response.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/models/Player.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/models/Team.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/JsonSupport.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/models/Teams.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Football.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/JsonSupport.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Boot.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Football.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/models/Player.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Tables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/models/Team.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="798" />
@@ -194,7 +158,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555705499101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555709896707" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../movie-core-master" />
   </component>
   <component name="RunDashboard">
@@ -216,6 +180,12 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="SbtRunConfiguration" factoryName="sbt Task">
+      <setting name="tasks" value="" />
+      <setting name="vmparams" value="-Dconfig.resource=local.conf -Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -270,14 +240,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32960895" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
@@ -392,17 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Player.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.slick/slick_2.12/srcs/slick_2.12-3.3.0-sources.jar!/slick/lifted/Aliases.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Team.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        <state relative-caret-position="343">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -415,38 +377,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/JsonSupport.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+        <state relative-caret-position="198">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Tables.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Boot.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="638">
+          <caret line="65" column="133" selection-start-line="65" selection-start-column="133" selection-end-line="65" selection-end-column="133" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Team.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Football.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="858">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/models/Player.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Tables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

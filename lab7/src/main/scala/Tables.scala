@@ -13,7 +13,11 @@ class TeamsTable(tag: Tag) extends Table[Team](tag, "TEAMS") {
 class PlayersTable(tag: Tag) extends Table[Player](tag, "PLAYERS") {
   // This is the primary key column:
   def playerId: Rep[Int] = column[Int]("PLAYER_ID", O.PrimaryKey, O.AutoInc)
-  def playerName: Rep[String] = column[String]("PLAYER_POSITION")
+  def playerName: Rep[String] = column[String]("PLAYER_NAME")
+  def playerSurname: Rep[String] = column[String]("PLAYER_SURNAME")
+  def playerNumber: Rep[String] = column[String]("PLAYER_NUMBER")
+  def playerPosition: Rep[String] = column[String]("PLAYER_POSITION")
+  def playerAge: Rep[String] = column[String]("PLAYER_AGE")
 
-  def * : ProvenShape[Player] = (playerId.?, playerName) <> (Player.tupled, Player.unapply)
+  def * : ProvenShape[Player] = (playerId.?, playerName, playerSurname,playerNumber,playerPosition,playerAge) <> (Player.tupled, Player.unapply)
 }

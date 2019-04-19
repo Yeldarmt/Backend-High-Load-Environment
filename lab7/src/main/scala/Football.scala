@@ -10,7 +10,10 @@ import scala.concurrent.duration._
 
 object Football{
   case class CreateTeam(name: String)
+  case class DeleteTeam(name: String)
   case object GetTeams
+  case class UpdateTeam(name: String, newName: String)
+  case class Txt(txt: String)
 
   def props(db: MySQLProfile.backend.Database)=Props(new Football(db))
 }
@@ -27,8 +30,20 @@ class Football(db: MySQLProfile.backend.Database) extends Actor with ActorLoggin
       sender() ! db.run(
         teamsTable += Team(name = newName)
       )
+
     case GetTeams =>
       sender() ! Teams(teams)
+
+    case DeleteTeam(newName) =>
+//      sender() ! db.run(
+//        teamsTable+=Team(name=newName)
+//      )
+
+    case UpdateTeam(name,newName) =>
+      //db.run(teamsTable+=Team(name=name))
+      sender() ! db.run(
+        teamsTable+=Team(name=newName)
+      )
   }
 
 }
