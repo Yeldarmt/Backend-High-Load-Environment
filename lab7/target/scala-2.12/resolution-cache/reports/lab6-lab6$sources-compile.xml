@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190419172134"/>
+		date="20190427171823"/>
 	<dependencies>
 		<module organisation="com.typesafe.slick" name="slick-codegen_2.12">
 			<revision name="3.2.1" status="release" pubdate="20170720183823" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">

@@ -35,15 +35,16 @@ class Football(db: MySQLProfile.backend.Database) extends Actor with ActorLoggin
       sender() ! Teams(teams)
 
     case DeleteTeam(newName) =>
-//      sender() ! db.run(
-//        teamsTable+=Team(name=newName)
-//      )
+      sender() ! db.run(
+        teamsTable.filter(_.TeamName==newName).delete
+      )
 
     case UpdateTeam(name,newName) =>
-      //db.run(teamsTable+=Team(name=name))
+      db.run(teamsTable+=Team(name=name))
       sender() ! db.run(
         teamsTable+=Team(name=newName)
       )
   }
-
 }
+
+//        teamsTable-=Team(name=newName)
